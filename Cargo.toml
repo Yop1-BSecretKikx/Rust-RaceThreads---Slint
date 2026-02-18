@@ -1,0 +1,14 @@
+[package]
+name = "Cont_"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+Janlib = "0.1.3"
+rand = "0.10.0"
+slint = "1.15.1"
+tokio = { version = "1", features = ["full"] }
+
+[build-dependencies]
+slint-build = "1.14"
